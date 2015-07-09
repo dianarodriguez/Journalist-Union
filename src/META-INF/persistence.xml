@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="tesisUpecPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>modelo.PeriodistaCirculo</class>
+    <class>modelo.PeriodistaCargop</class>
+    <class>modelo.PeriodistaCondecoracion</class>
+    <class>modelo.PeriodistaPremio</class>
+    <class>modelo.Usuario</class>
+    <class>modelo.CargoUpec</class>
+    <class>modelo.Evento</class>
+    <class>modelo.Rol</class>
+    <class>modelo.CategoriaDocente</class>
+    <class>modelo.Condecoracion</class>
+    <class>modelo.CargoPeriodistico</class>
+    <class>modelo.CursoPostgrado</class>
+    <class>modelo.Idioma</class>
+    <class>modelo.PeriodistaComputadora</class>
+    <class>modelo.Premio</class>
+    <class>modelo.Computadoras</class>
+    <class>modelo.PeriodistaIdioma</class>
+    <class>modelo.Baja</class>
+    <class>modelo.Delegacion</class>
+    <class>modelo.PeriodistaMision</class>
+    <class>modelo.CirculoEspecial</class>
+    <class>modelo.PeriodistaCategoria</class>
+    <class>modelo.PeriodistaPostgrado</class>
+    <class>modelo.Periodista</class>
+    <class>modelo.Mision</class>
+    <class>modelo.PeriodistaEvento</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/bd_upec"/>
+      <property name="javax.persistence.jdbc.password" value="root+123/*-"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+    </properties>
+  </persistence-unit>
+</persistence>
